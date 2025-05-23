@@ -22,9 +22,9 @@ jobs:
           echo "[r2]" > ~/.config/rclone/rclone.conf
           echo "type = s3" >> ~/.config/rclone/rclone.conf
           echo "provider = Cloudflare" >> ~/.config/rclone/rclone.conf
-          echo "access_key_id = ${{ secrets.R2_ACCESS_KEY_ID }}" >> ~/.config/rclone/rclone.conf
-          echo "secret_access_key = ${{ secrets.R2_SECRET_ACCESS_KEY }}" >> ~/.config/rclone/rclone.conf
-          echo "endpoint = https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com" >> ~/.config/rclone/rclone.conf
+          echo "access_key_id = ${{ d3d1887bc3ad4607dca7a18e9639dbc6 }}" >> ~/.config/rclone/rclone.conf
+          echo "secret_access_key = ${{ e73f759eaec280b0af6c97ffd97d68fb058307d063085c06d6f94c2151c1805a }}" >> ~/.config/rclone/rclone.conf
+          echo "endpoint = https://${{ 97745ed61bad1988fa5b6b2072ede438 }}.r2.cloudflarestorage.com" >> ~/.config/rclone/rclone.conf
           echo "acl = public-read" >> ~/.config/rclone/rclone.conf
 
       - name: 🚀 Deploy to R2 Bucket
