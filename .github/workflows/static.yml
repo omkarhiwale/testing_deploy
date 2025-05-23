@@ -30,5 +30,3 @@ jobs:
       - name: 📤 Sync site to R2 bucket
         run: |
           rclone sync . r2:${{ secrets.R2_BUCKET_NAME }} --progress --s3-acl public-read
-          --exclude ".git/**" \
-          --exclude ".github/**"
