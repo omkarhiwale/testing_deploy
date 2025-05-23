@@ -1,0 +1,8 @@
+name = "my-r2-site"
+type = "javascript"
+compatibility_date = "2025-05-23"
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "testing-deploy"
+preview_bucket_name = "testing-deploy"
